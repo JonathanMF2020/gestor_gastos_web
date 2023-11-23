@@ -1,0 +1,20 @@
+<div class="container mt-3 imageback">
+    <h3 class="text-center text-white">Bienvenido</h3>
+    <div class="row white-box">
+        <div class="col-md-12">
+            <div class="form-group mb-3">
+                <label for="exampleInputEmail1">Correo</label>
+                <input  type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu email" [(ngModel)]="correoInput">
+            </div>
+            <div class="form-group mb-3">
+                <label for="exampleInputPassword1">Password</label>
+                <input  type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu password" [(ngModel)]="passwordInput">
+            </div>
+            <a class="btn btn-primary text-center" (click)="login()">Ingresar</a>
+
+            <hr>
+            <p class="text-center center">¿Aun no tienes una cuenta? <a href="/registro">Da click aqui</a> para crear una nueva</p>
+        </div>
+    </div>
+    
+</div>
